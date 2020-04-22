@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="./images/favicon-32x32.png"
+		/>
+		<link
+			rel="stylesheet"
+			type="text/css"
+			media="screen and (max-width: 378px)"
+			href="./styles/375.css"
+		/>
+		<link
+			rel="stylesheet"
+			type="text/css"
+			media="screen and (min-width: 378px)"
+			href="./styles/1440.css"
+		/>
+		<link
+			href="https://fonts.googleapis.com/css?family=Poppins&display=swap"
+			rel="stylesheet"
+		/>
+		<title>
+			Intro component with sign up form
+		</title>
+	</head>
+	<body>
+		<header>
+			<h1>Learn to code by watching others</h1>
+		</header>
+		<p class="developers">
+			See how experienced developers solve problems in
+			real-time. Watching scripted tutorials is great, but
+			understanding how developers think is invaluable.
+		</p>
+		<div class="purple">
+			<p>
+				<span class="try"> Try it free 7 days </span
+				>then $20/mo. thereafter
+			</p>
+		</div>
+		<form>
+			<input type="text" placeholder="First Name" />
+			<p class="name error">First name can not be empty.</p>
+			<img
+				src="./images/icon-error.svg"
+				class="error-icon name"
+				alt="error"
+			/>
+			<input type="text" placeholder="Last Name" />
+			<p class="lastname error">
+				Last Name can not be empty.
+			</p>
+			<img
+				src="./images/icon-error.svg"
+				class="error-icon lastname"
+				alt="error"
+			/>
+			<input type="email" placeholder="Email Address" />
+			<p class="email error error-text">email@example/com</p>
+			<img
+				src="./images/icon-error.svg"
+				class="error-icon email"
+				alt="error"
+			/>
+		<p class='email-error error'>Looks like this is not an email</p>			
+			<input type="password" placeholder="Password" />
+			<p class="password-error">Password can not be empty.</p>
+			<img
+				src="./images/icon-error.svg"
+				class="error-icon password"
+				alt="error"
+			/>
+			<button>
+				Claim your free trial
+			</button>
+			<div class="terms">
+				By clicking the button, you are agreeing to our
+				<span class="services"
+					>Terms and Services
+				</span>
+			</div>
+		</form>
+		<script src="./scripts/main.js"></script>
+	</body>
+</html>

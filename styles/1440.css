@@ -1,0 +1,186 @@
+body {
+	background-color: hsl(0, 100%, 74%);
+	background-image: url("./../images/bg-intro-desktop.png");
+	display: flex;
+	font-family: "Poppins", sans-serif;
+}
+
+button {
+	background-color: hsl(154, 59%, 51%);
+	border: none;
+	border-radius: 5px;
+	box-shadow: 0px 6px hsl(154, 59%, 45%);
+	color: white;
+	display: block;
+	font-size: 1em;
+	font-weight: 700;
+	height: 64px;
+	margin: 0 auto;
+	margin-top: 1.5em;
+	text-transform: uppercase;
+	width: 460px;
+}
+
+form {
+	background-color: white;
+	border-radius: 10px;
+	box-shadow: 0px 6px hsla(0, 0%, 0%, 0.2);
+	display: flex;
+	flex-direction: column;
+	height: 520px;
+	margin: 0 auto;
+	margin-bottom: 3em;
+	margin-top: 1em;
+	position: absolute;
+	right: 180px;
+	top: 230px;
+	text-align: center;
+	width: 540px;
+}
+
+header {
+	font-weight: 700;
+	position: absolute;
+	top: 300px;
+	width: 416px;
+	left: 160px;
+}
+
+h1 {
+	font-size: 3em;
+	font-weight: 700;
+}
+
+h1,
+p {
+	color: white;
+}
+
+input:nth-child(1) {
+	margin-top: 40px;
+}
+
+input:nth-child(2) {
+	margin-top: 40px;
+}
+input:nth-child(10) {
+	margin-top: 28px;
+}
+
+input {
+	border-radius: 5px;
+	border: 1px solid hsl(246, 25%, 77%);
+	border-top-color: rgb(185, 182, 211);
+	border-right-color: rgb(185, 182, 211);
+	border-bottom-color: rgb(185, 182, 211);
+	border-left-color: rgb(185, 182, 211);
+	color: hsl(249, 10%, 26%);
+	font-weight: 700;
+	height: 42px;
+	margin: 0 auto;
+	width: 460px;
+}
+
+input:hover {
+	border-color: black;
+}
+.error {
+	color: hsl(0, 100%, 74%);
+	font-size: 0.5em !important;
+	font-weight: bold;
+	margin-right: -332px;
+	opacity: 0;
+}
+
+.error-icon {
+	position: absolute;
+	width: 20px;
+	opacity: 0;
+}
+
+.error-text {
+	font-size: 1em !important;
+	font-weight: bold;
+	left: -504px;
+	position: absolute;
+	top: 184px !important;
+	opacity: 0;
+}
+
+.name {
+	right: 60px;
+	top: 54px;
+}
+
+.lastname {
+	right: 60px;
+	top: 128px;
+}
+
+.email {
+	right: 60px;
+	top: 200px;
+}
+
+.password {
+	right: 60px;
+	top: 276px;
+}
+
+.developers {
+	font-weight: 700;
+	position: absolute;
+	top: 480px;
+	left: 160px;
+	width: 490px;
+}
+
+.password-error {
+	color: hsl(0, 100%, 74%);
+	font-size: 0.5em;
+	font-weight: bold;
+	margin-right: -332px;
+	opacity: 0;
+}
+
+.purple {
+	background-color: hsl(248, 32%, 49%);
+	border-radius: 10px;
+	box-shadow: 0px 6px hsla(0, 0%, 0%, 0.2);
+	color: white;
+	height: 58px;
+	margin: 0 auto;
+	margin-top: 3em;
+	position: absolute;
+	text-align: center;
+	top: 100px;
+	right: 180px;
+	width: 540px;
+}
+
+.purple p {
+	margin-top: 16px;
+}
+
+.services {
+	color: hsl(0, 100%, 74%);
+	font-weight: bold;
+}
+
+.terms {
+	color: hsl(246, 25%, 77%);
+	font-size: 0.7em;
+	font-weight: 700;
+	margin: 0 auto;
+	padding-bottom: 3em;
+	padding-top: 2em;
+	width: 460px;
+}
+
+.try {
+	font-weight: bold;
+}
+
+::placeholder {
+	padding-left: 1em;
+}
