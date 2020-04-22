@@ -56,17 +56,6 @@ p {
 	color: white;
 }
 
-input:nth-child(1) {
-	margin-top: 40px;
-}
-
-input:nth-child(2) {
-	margin-top: 40px;
-}
-input:nth-child(10) {
-	margin-top: 28px;
-}
-
 input {
 	border-radius: 5px;
 	border: 1px solid hsl(246, 25%, 77%);
@@ -79,11 +68,24 @@ input {
 	height: 42px;
 	margin: 0 auto;
 	width: 460px;
+	padding-left: 2em;
+}
+
+input:nth-child(1) {
+	margin-top: 40px;
+}
+
+input:nth-child(2) {
+	margin-top: 40px;
+}
+input:nth-child(10) {
+	margin-top: 28px;
 }
 
 input:hover {
 	border-color: black;
 }
+
 .error {
 	color: hsl(0, 100%, 74%);
 	font-size: 0.5em !important;

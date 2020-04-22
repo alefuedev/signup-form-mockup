@@ -52,6 +52,7 @@ input {
 	color: hsl(249, 10%, 26%);
 	font-weight: 700;
 	height: 50px;
+	padding-left: 1em;
 	width: 270px;
 }
 
@@ -62,6 +63,7 @@ input:nth-child(7) {
 input:nth-child(11) {
 	margin-top: -6px !important;
 }
+
 .error {
 	border: 2px error black;
 	color: hsl(0, 100%, 74%);
